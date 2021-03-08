@@ -158,7 +158,7 @@
     }
   },
   "paths": {
-    "/Providers": {
+    "/Providers Sachi": {
       "get": {
         "tags": [],
         "summary": "GetProviders",
