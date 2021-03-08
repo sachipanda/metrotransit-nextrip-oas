@@ -11,7 +11,7 @@ The OAS file in this repository is syncing to [ReadMe](https://readme.com/) via 
 | Endpoint | Description |
 | :--- | :--- |
 | `/Providers` | Returns a list of area Transit providers. Providers are identified in the list of Routes allowing routes to be selected for a single provider. |
-| `/Routes` | Returns a list of Transit routes that are in service on the current day. |
+| `/MyRoutes` | Returns a list of Transit routes that are in service on the current day. |
 | `/Directions/{route}` | Returns the two directions that are valid for a given route. Either North/South or East/West. The result includes text/value pair with the direction name and an ID. Directions are identified with an ID value. 1 = South, 2 = East, 3 = West, 4 = North. |
 | `/Stops/{route}/{direction}` | Returns a list of Timepoint stops for the given Route/Direction. The result includes text/value pairs with the stop description and a 4 character stop (or node) identifier. |
 | `/{stopid}` | This operation is used to return a list of departures scheduled for any given bus stop. A StopID is an integer value identifying any one of the many thousands of bus stops in the metro. Stop information can be derived from the GTFS schedule data updated weekly for public use. https://gisdata.mn.gov/dataset/us-mn-state-metc-trans-transit-schedule-google-fd |
